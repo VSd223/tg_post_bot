@@ -1,6 +1,7 @@
 import json
 from datetime import datetime, timedelta
 from aiogram import Router, types, F
+from typing import Optional
 from aiogram.fsm.context import FSMContext
 from database import db
 from states import PostCreateStates
